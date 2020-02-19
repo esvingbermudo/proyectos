@@ -1,0 +1,48 @@
+.texto{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+.mensaje{
+    width: 250px;
+
+}
+.btn{
+    width: 150px;
+    height: 30px;
+}
+.btn:hover{
+    background: blue;
+    cursor: pointer;
+    color: white;
+
+
+
+}
+
+.social{
+	position: fixed;
+	left: -35px;
+	top:450px;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 50px;
+	z-index: 20;
+	transition: 0.1s ease;
+}
+
+.fa-facebook-messenger{
+	background: #8884ff;
+}
+
+.fa-whatsapp{
+	background: #25d366;
+}
